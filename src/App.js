@@ -16,7 +16,6 @@ function App() {
         <Route path="/" element={<Add></Add>}></Route>
         <Route path="/add" element={<Add></Add>}></Route>
         <Route path="/get" element={<Get></Get>}></Route>
-        <Route path="/delete" element={<Delete></Delete>}></Route>
         <Route path="/update" element={<Update></Update>}></Route>
       </Routes>
     </div>
